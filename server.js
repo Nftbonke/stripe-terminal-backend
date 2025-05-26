@@ -6,7 +6,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 4242;
 
 // Replace with your Stripe Terminal Location ID
-const TERMINAL_LOCATION_ID = 'your_location_id_here';
+const TERMINAL_LOCATION_ID = 'tml_GCwUjw1s7h952T';
 
 app.post('/register-reader', async (req, res) => {
   const { registrationCode, label } = req.body;
