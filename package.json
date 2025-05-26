@@ -1,0 +1,14 @@
+{
+  "name": "stripe-terminal-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Stripe Terminal WisePOS E",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^12.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
