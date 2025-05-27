@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: stripe-terminal-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: STRIPE_SECRET_KEY
+        value: sk_test_51Qos1VDHIBX8z8nHF6eSfbFIOLrf7KU9i3PzXfYFFnLImHxq2yNjG2bDVjK1fED6XyNtUZfQJH7SvHbzTEGHqFLA00pgDysMrPk_test_YourStripeTestKeyHere
+      - key: PORT
+        value: 10000
