@@ -6,6 +6,6 @@ services:
     startCommand: node server.js
     envVars:
       - key: STRIPE_SECRET_KEY
-      sync: false
+        sync: false
       - key: PORT
         value: 4242
